@@ -1,0 +1,16 @@
+# Configuracao de exemplo do DSpace 7.6.1
+
+# Diretorio de instalacao
+dspace.dir = C:/dspace
+
+# Enderecos da aplicacao
+dspace.server.url = https://SEU-DOMINIO/server
+dspace.ui.url = https://SEU-DOMINIO
+
+# Banco de dados PostgreSQL
+db.url = jdbc:postgresql://localhost:5432/NOME_DO_BANCO
+db.username = USUARIO
+db.password = SUBSTITUIR_LOCALMENTE
+
+# Solr
+solr.server = http://localhost:8983/solr
